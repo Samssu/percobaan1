@@ -1,0 +1,68 @@
+.orange-underline {
+    width: 50px;
+    height: 4px;
+    background-color: orange;
+    border-radius: 2px;
+}
+
+.social-icons i {
+    font-size: 24px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.social-icons i:hover {
+    color: orange;
+}
+
+body {
+    padding-top: 60px; /* Sesuaikan dengan tinggi navbar */
+}
+
+.explore-section {
+    height: 35vh; /* Fullscreen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid #ffffff; /* Optional border for better visual */
+}
+
+.explore-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #2e2e66; /* Dark text color */
+}
+
+.explore-description {
+    font-size: 1rem;
+    color: #6c757d; /* Muted text color */
+}
+.explore-btn {
+    border: 2px solid #000000; /* Black border color */
+    color: #2e2e66;
+    transition: all 0.3s ease-in-out;
+}
+
+.explore-btn:hover {
+    background-color: #2e2e66;
+    color: #000000;
+}
+.fullscreen-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.fullscreen-overlay img {
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+}
